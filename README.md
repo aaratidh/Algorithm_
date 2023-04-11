@@ -12,7 +12,8 @@ solution:
 
 TOP: sort
 
-Day_2
+Day_2#
+
 Problem: Find the most lucrative simple path in a DAG:
 ![image](https://user-images.githubusercontent.com/35992124/230827737-b99528fe-1659-4add-ae96-b53f405bc94b.png)
 
@@ -27,7 +28,8 @@ for each vertext v in  TS:
            
 repeate untill each and every vertex has been updated in TS list. 
 
-Day_3 
+Day_3 #
+
 Find the costliest or Cheapest path in DAG:
 Do a topological sort in a graph
 set the cost of each vertex cost[vx] = +inf or +inf
