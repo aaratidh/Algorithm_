@@ -10,7 +10,7 @@ Problem:
 solution: 
 ![image](https://user-images.githubusercontent.com/35992124/218293808-4f756d4b-da96-4819-955d-1f358d06bd2a.png)
 
-
+TOP: sort
 
 Day_2
 Problem: Find the most lucrative simple path in a DAG:
@@ -26,3 +26,14 @@ for each vertext v in  TS:
             update the nbr gold with = (sum of value of vertex v and nbr.gold )
            
 repeate untill each and every vertex has been updated in TS list. 
+
+Day_3 
+Find the costliest or Cheapest path in DAG:
+Do a topological sort in a graph
+set the cost of each vertex cost[vx] = +inf or +inf
+set cost[src] = 0
+for each vertex v in sorted order (start as src)
+      for each nbr of v:
+          newcost = cost[v] +edgeWT(V->nbr)
+          cost[nbr] = max 0r min (cost[nbr] , newcost)
+     cost[vx]:costli(cheap)est path src to vertex
