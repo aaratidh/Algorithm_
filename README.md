@@ -1,4 +1,4 @@
-## Algorithm_
+# Algorithm_
 
 This repo include my learning of algorithm. 
 
@@ -49,5 +49,26 @@ A binary search tree has been augmented so that each node knows how many tree de
 has. (Each node has attributes .key,.d,.lc,.rc ). Write a (recursive) algorithm that is given the root of the
 tree and a (0-based) index and that returns the key located at that position in the ordering. So, for
 example, if given index 0 it would return the smallest key in the tree.
+
+<!-- MarkdownTOC depth=4 --> 
+Solution 
+<!-- MarkdownTOC depth=4 -->
+
+##Day_5 
+<!-- MarkdownTOC depth=4 -->
+problem: 
+Find the algorithm with less than "n" complexity : 
+Given a square with defects points. find the maximum area in the sqaure without including defect points. Given the coordinated of the defect points and square.
+
+
+
+
+
+
+
+
+
+
+
 
 
